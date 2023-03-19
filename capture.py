@@ -11,7 +11,7 @@ import eel
 frequency=2500
 duration=1000
 
-eel.init('WD_INNOVATIVE')
+eel.init('src')
 emotions=["angry", "happy", "sad", "neutral","fear"]
 fishface = cv2.face.FisherFaceRecognizer_create()
 font = cv2.FONT_HERSHEY_SIMPLEX
