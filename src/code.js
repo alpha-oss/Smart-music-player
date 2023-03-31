@@ -1,4 +1,3 @@
-
 var songrun=false;
 var count=1;
 var mod=1;
@@ -83,9 +82,6 @@ for (var i = 0; i<icon.length; i++) {
 		addq(this);
 	};	
 }
-
-
-
 
 function setmod(elem){
 	mod=elem.value;
